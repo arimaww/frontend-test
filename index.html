@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="./images/Logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="left-content">
+                <img src="./images/left-content/Type=Menu.svg" alt="">
+                <img class="logo" src="./images/left-content/Logo.svg" alt="">
+            </div>
+            <img class="logo-tablet" src="./images/left-content/Logo.svg" alt="">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="index.html" id="active-page">Фильмы</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                </ul>
+            </nav>
+            <div class="right-content">
+                <input class="search-input search-event" type="text" placeholder='Поиск по сайту'>
+                <img class="favorite" src="./images/right-content/Favorite.svg" alt="">
+                <div>
+                    <img src="./images/right-content/Avatar.svg" alt="">
+                    <img src="./images/right-content/arrow_drop_down_24px.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="search-mobile remove">
+            <div>
+                <input class="search-mobile-input search-event" type="text" placeholder="&nbsp;">
+                <img class="remove-btn" src='./images/common/Button.svg' alt="" />
+                <a href="index.html" class="clear-input">Отменить</a>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <section class="movies">
+            <article class="popular">
+                <h1>Популярные</h1>
+
+                <div class="movies__cards">
+                    <div class="movies__card" data-id="tt1630029">
+                        <img class="poster" src="./images/popular/1.jpg" alt="">
+                        <p>Аватар: Путь воды</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>9.0</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt1485796">
+                        <img class="poster" src="./images/popular/2.jpg" alt="">
+                        <p>Величайший шоумен</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.1</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt0848228">
+                        <img class="poster" src="./images/popular/3.jpg" alt="">
+                        <p>Мстители</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>9.2</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt1587310">
+                        <img class="poster" src="./images/popular/4.jpg" alt="">
+                        <p>Малифисента</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.0</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt0993846">
+                        <img class="poster" src="./images/popular/5.jpg" alt="">
+                        <p>Волк с Уол-Стрит</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.4</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt10872600">
+                        <img class="poster" src="./images/popular/6.jpg" alt="">
+                        <p>Человек-паук: Нет пути домой</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.5</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="recently">
+                <h1>Недавно просмотренные</h1>
+
+                <div class="movies__cards">
+                    <div class="movies__card" data-id="tt7131622">
+                        <img class="poster" src="./images/recently/1.jpg" alt="">
+                        <p>Однажды в Голливуде</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>9.0</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt0110413">
+                        <img class="poster" src="./images/recently/2.jpg" alt="">
+                        <p>Леон</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.1</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt9758270">
+                        <img class="poster" src="./images/recently/3.jpg" alt="">
+                        <p>Зеленая книга</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>9.2</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt2278388">
+                        <img class="poster" src="./images/recently/4.jpg" alt="">
+                        <p>Отель «Гранд Будапешт»</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.0</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt5068754">
+                        <img class="poster" src="./images/recently/5.jpg" alt="">
+                        <p>Бесподобный мистер Фокс</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.4</span>
+                        </div>
+                    </div>
+                    <div class="movies__card" data-id="tt1748122">
+                        <img class="poster" src="./images/recently/6.jpg" alt="">
+                        <p>Королевство полной луны</p>
+                        <div class="rating">
+                            <img src="./images/common/Star.svg" alt="">
+                            <span>8.5</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="search-results">
+                <h1>Результаты поиска</h1>
+                <div class="movies__cards"></div>
+            </article>
+        </section>
+    </div>
+
+    <nav class="navigation-bar">
+        <div class="container">
+            <ul>
+                <li><a href="#"><img class="navigation-bar-image" src="./images/navigation-bar/Main.svg"
+                            style="color:red" alt=""><span>Главная</span></a></li>
+                <li><a href="#"><img class="navigation-bar-image" src="./images/navigation-bar/Movies-light.svg"
+                            alt=""><span>Фильмы</span></a></li>
+                <li><a href="#"><img class="navigation-bar-image" src="./images/navigation-bar/Series.svg"
+                            alt=""><span>Сериалы</span></a></li>
+                <li class="search-btn"><a href="#"><img class="navigation-bar-image"
+                            src="./images/navigation-bar/Search.svg"><span>Поиск</span></a></li>
+                <li><a href="#"><img class="navigation-bar-image" src="./images/navigation-bar/Favorite.svg"
+                            alt=""><span>Избранное</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal remove">
+        
+    </div>
+
+    <script src="./scripts/api.js" type="module"></script>
+    <script src="./scripts/render.js" type="module"></script>
+    <script src="./scripts/index.js" type="module"></script>
+</body>
+
+</html>
